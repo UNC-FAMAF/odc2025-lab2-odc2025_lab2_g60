@@ -13,8 +13,8 @@ main:
  	mov x20, x0	// Guarda la dirección base del framebuffer en x20
 	//---------------- CODE HERE ------------------------------------
 
-	movz x10, 0xC7, lsl 16
-	movk x10, 0x1585, lsl 00
+	movz x10, 0x76, lsl 16
+	movk x10, 0xC9D7, lsl 00
 
 	mov x2, SCREEN_HEIGH         // Y Size
 loop1:
@@ -26,6 +26,8 @@ loop0:
 	cbnz x1,loop0  // Si no terminó la fila, salto
 	sub x2,x2,1	   // Decrementar contador Y
 	cbnz x2,loop1  // Si no es la última fila, salto
+
+	BL cuerpo // Pintar cuerpo del muñeco
 
 	// Ejemplo de uso de gpios
 	mov x9, GPIO_BASE
