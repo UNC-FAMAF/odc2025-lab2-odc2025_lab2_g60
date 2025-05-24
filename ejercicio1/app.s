@@ -14,7 +14,7 @@ main:
 	//---------------- CODE HERE ------------------------------------
 
 	movz x10, 0x76, lsl 16
-	movk x10, 0xC9D7, lsl 00
+	movk x10, 0xC9D7, lsl 00     // Color del fondo 0x76C9D7
 
 	mov x2, SCREEN_HEIGH         // Y Size
 loop1:
