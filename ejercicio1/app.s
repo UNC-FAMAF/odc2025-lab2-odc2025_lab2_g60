@@ -1,5 +1,5 @@
 	.equ SCREEN_WIDTH, 		640
-	.equ SCREEN_HEIGH, 		480
+	.equ SCREEN_HEIGHT,		480
 	.equ BITS_PER_PIXEL,  	32
 
 	.equ GPIO_BASE,      0x3f200000
@@ -16,7 +16,7 @@ main:
 	movz x10, 0x76, lsl 16
 	movk x10, 0xC9D7, lsl 00     // Color del fondo 0x76C9D7
 
-	mov x2, SCREEN_HEIGH         // Y Size
+	mov x2, SCREEN_HEIGHT        // Y Size
 loop1:
 	mov x1, SCREEN_WIDTH         // X Size
 loop0:

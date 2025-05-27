@@ -10,7 +10,7 @@ circulo:
 
     mul x25, x23, x23
     
-    	//loop Y desde 0 hasta SCREEN_HEIGH
+    	//loop Y desde 0 hasta SCREEN_HEIGHT
     mov x5, 0		// y = 0
 
 y_loop:
