@@ -1,9 +1,9 @@
 .text
 .include "circulo.s"
 .include "rectangulo.s"
-.globl cuerpo
+.globl silueta
 
-cuerpo:
+silueta:
     // silueta del cuerpo
     mov x0, x20
     mov x1, 292

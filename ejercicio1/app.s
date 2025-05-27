@@ -27,7 +27,7 @@ loop0:
 	sub x2,x2,1	   // Decrementar contador Y
 	cbnz x2,loop1  // Si no es la última fila, salto
 
-	BL cuerpo // Pintar cuerpo del muñeco
+	BL silueta // Pintar silueta del muñeco
 
 	// Ejemplo de uso de gpios
 	mov x9, GPIO_BASE
