@@ -1,6 +1,7 @@
 .text
 .include "circulo.s"
 .include "rectangulo.s"
+.include "colores."
 .globl silueta
 
 silueta:
