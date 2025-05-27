@@ -11,7 +11,7 @@ silueta:
     mov X2, 44
     mov X3, 340
     mov X4, 50
-    mov X7, 0
+    ldr X7, =NEGRO
     bl pintar_rectangulo
 
     mov X0, X20
@@ -19,7 +19,7 @@ silueta:
     mov X2, 51
     mov X3, 354
     mov X4, 57
-    mov X7, 0
+    ldr X7, =NEGRO
     bl pintar_rectangulo
 
     mov X0, X20
@@ -27,7 +27,7 @@ silueta:
     mov X2, 58
     mov X3, 361
     mov X4, 64
-    mov X7, 0
+    ldr X7, =NEGRO
     bl pintar_rectangulo
 
     mov X0, X20
@@ -35,7 +35,7 @@ silueta:
     mov X2, 65
     mov X3, 368
     mov X4, 71
-    mov X7, 0
+    ldr X7, =NEGRO
     bl pintar_rectangulo
 
     mov X0, X20
@@ -43,7 +43,7 @@ silueta:
     mov X2, 72
     mov X3, 368
     mov X4, 85
-    mov X7, 0
+    ldr X7, =NEGRO
     bl pintar_rectangulo
 
     mov X0, X20
@@ -51,7 +51,7 @@ silueta:
     mov X2, 79
     mov X3, 375
     mov X4, 85
-    mov X7, 0
+    ldr X7, =NEGRO
     bl pintar_rectangulo
 
     mov X0, X20
@@ -59,7 +59,7 @@ silueta:
     mov X2, 86
     mov X3, 375
     mov X4, 106
-    mov X7, 0
+    ldr X7, =NEGRO
     bl pintar_rectangulo
 
     mov X0, X20
@@ -67,7 +67,7 @@ silueta:
     mov X2, 107
     mov X3, 375
     mov X4, 113
-    mov X7, 0
+    ldr X7, =NEGRO
     bl pintar_rectangulo
 
     mov X0, X20
@@ -75,7 +75,7 @@ silueta:
     mov X2, 114
     mov X3, 375
     mov X4, 134
-    mov X7, 0
+    ldr X7, =NEGRO
     bl pintar_rectangulo
 
     mov X0, X20
@@ -83,7 +83,7 @@ silueta:
     mov X2, 128
     mov X3, 389
     mov X4, 134
-    mov X7, 0
+    ldr X7, =NEGRO
     bl pintar_rectangulo
 
     mov X0, X20
@@ -91,7 +91,7 @@ silueta:
     mov X2, 135
     mov X3, 403
     mov X4, 141
-    mov X7, 0
+    ldr X7, =NEGRO
     bl pintar_rectangulo
 
     mov X0, X20
@@ -99,7 +99,7 @@ silueta:
     mov X2, 142
     mov X3, 417
     mov X4, 148
-    mov X7, 0
+    ldr X7, =NEGRO
     bl pintar_rectangulo
 
     mov X0, X20
@@ -107,7 +107,7 @@ silueta:
     mov X2, 149
     mov X3, 424
     mov X4, 155
-    mov X7, 0
+    ldr X7, =NEGRO
     bl pintar_rectangulo
 
     mov X0, X20
@@ -115,7 +115,7 @@ silueta:
     mov X2, 156
     mov X3, 424
     mov X4, 162
-    mov X7, 0
+    ldr X7, =NEGRO
     bl pintar_rectangulo
 
     mov X0, X20
@@ -123,7 +123,7 @@ silueta:
     mov X2, 163
     mov X3, 410
     mov X4, 169
-    mov X7, 0
+    ldr X7, =NEGRO
     bl pintar_rectangulo
 
     mov X0, X20
@@ -131,7 +131,7 @@ silueta:
     mov X2, 170
     mov X3, 396
     mov X4, 176
-    mov X7, 0
+    ldr X7, =NEGRO
     bl pintar_rectangulo
 
     mov X0, X20
@@ -139,7 +139,7 @@ silueta:
     mov X2, 177
     mov X3, 396
     mov X4, 211
-    mov X7, 0
+    ldr X7, =NEGRO
     bl pintar_rectangulo
 
     mov X0, X20
@@ -147,7 +147,7 @@ silueta:
     mov X2, 212
     mov X3, 389
     mov X4, 225
-    mov X7, 0
+    ldr X7, =NEGRO
     bl pintar_rectangulo
 
     mov X0, X20
@@ -155,7 +155,7 @@ silueta:
     mov X2, 226
     mov X3, 382
     mov X4, 239
-    mov X7, 0
+    ldr X7, =NEGRO
     bl pintar_rectangulo
 
     mov X0, X20
@@ -163,7 +163,7 @@ silueta:
     mov X2, 240
     mov X3, 375
     mov X4, 246
-    mov X7, 0
+    ldr X7, =NEGRO
     bl pintar_rectangulo
 
     // Silueta del cuerpo
@@ -172,7 +172,7 @@ silueta:
     mov x2, 247
     mov x3, 368
     mov x4, 253
-    mov x7, 0
+    ldr X7, =NEGRO
     bl pintar_rectangulo
 
     mov x0, x20
@@ -180,7 +180,7 @@ silueta:
     mov x2, 254
     mov x3, 375
     mov x4, 260
-    mov x7, 0
+    ldr X7, =NEGRO
     bl pintar_rectangulo
 
     mov x0, x20
@@ -188,7 +188,7 @@ silueta:
     mov x2, 261
     mov x3, 382
     mov x4, 267
-    mov x7, 0
+    ldr X7, =NEGRO
     bl pintar_rectangulo
 
     mov x0, x20
@@ -196,7 +196,7 @@ silueta:
     mov x2, 268
     mov x3, 389
     mov x4, 274
-    mov x7, 0
+    ldr X7, =NEGRO
     bl pintar_rectangulo
 
     mov x0, x20
@@ -204,7 +204,7 @@ silueta:
     mov x2, 275
     mov x3, 396
     mov x4, 281
-    mov x7, 0
+    ldr X7, =NEGRO
     bl pintar_rectangulo
 
     mov x0, x20
@@ -212,7 +212,7 @@ silueta:
     mov x2, 282
     mov x3, 403
     mov x4, 295
-    mov x7, 0
+    ldr X7, =NEGRO
     bl pintar_rectangulo
 
     mov x0, x20
@@ -220,7 +220,7 @@ silueta:
     mov x2, 296
     mov x3, 410
     mov x4, 309
-    mov x7, 0
+    ldr X7, =NEGRO
     bl pintar_rectangulo
 
     mov x0, x20
@@ -228,7 +228,7 @@ silueta:
     mov x2, 310
     mov x3, 417
     mov x4, 365
-    mov x7, 0
+    ldr X7, =NEGRO
     bl pintar_rectangulo
 
     mov x0, x20
@@ -236,7 +236,7 @@ silueta:
     mov x2, 366
     mov x3, 410
     mov x4, 379
-    mov x7, 0
+    ldr X7, =NEGRO
     bl pintar_rectangulo
 
     mov x0, x20
@@ -244,7 +244,7 @@ silueta:
     mov x2, 380
     mov x3, 403
     mov x4, 393
-    mov x7, 0
+    ldr X7, =NEGRO
     bl pintar_rectangulo
 
     mov x0, x20
@@ -252,7 +252,7 @@ silueta:
     mov x2, 394
     mov x3, 396
     mov x4, 400
-    mov x7, 0
+    ldr X7, =NEGRO
     bl pintar_rectangulo
 
     mov x0, x20
@@ -260,7 +260,7 @@ silueta:
     mov x2, 401
     mov x3, 389
     mov x4, 407
-    mov x7, 0
+    ldr X7, =NEGRO
     bl pintar_rectangulo
 
     mov x0, x20
@@ -268,7 +268,7 @@ silueta:
     mov x2, 408
     mov x3, 382
     mov x4, 414
-    mov x7, 0
+    ldr X7, =NEGRO
     bl pintar_rectangulo
 
     mov x0, x20
@@ -276,7 +276,7 @@ silueta:
     mov x2, 415
     mov x3, 375
     mov x4, 421
-    mov x7, 0
+    ldr X7, =NEGRO
     bl pintar_rectangulo
 
     mov x0, x20
@@ -284,7 +284,7 @@ silueta:
     mov x2, 422
     mov x3, 361
     mov x4, 428
-    mov x7, 0
+    ldr X7, =NEGRO
     bl pintar_rectangulo
 
     mov x0, x20
@@ -292,7 +292,7 @@ silueta:
     mov x2, 429
     mov x3, 347
     mov x4, 435
-    mov x7, 0
+    ldr X7, =NEGRO
     bl pintar_rectangulo
 
     RET

@@ -14,6 +14,8 @@ main:
 
 	BL silueta // Pintar silueta del muñeco
 
+	BL pintar // Colorear muñeco de nieve
+
 	// Ejemplo de uso de gpios
 	mov x9, GPIO_BASE
 
