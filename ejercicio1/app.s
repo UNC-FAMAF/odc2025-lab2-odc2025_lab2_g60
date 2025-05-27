@@ -10,7 +10,7 @@
 
 main:
 	
-	BL fondo
+	BL fondo // Pintar el fondo
 
 	BL silueta // Pintar silueta del muñeco
 
