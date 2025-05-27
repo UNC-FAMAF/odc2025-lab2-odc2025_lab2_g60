@@ -131,6 +131,166 @@ cuerpo:
     mov x3, 368
     mov x4, 253
     mov x7, 0x0000
-    bl pintar_rectangulo    
+    bl pintar_rectangulo
+
+    mov X0, X20
+    mov X1, 278
+    mov X2, 44
+    mov X3, 340
+    mov X4, 50
+    mov X7, 0
+    bl pintar_rectangulo
+
+    mov X0, X20
+    mov X1, 264
+    mov X2, 51
+    mov X3, 354
+    mov X4, 57
+    mov X7, 0
+    bl pintar_rectangulo
+
+    mov X0, X20
+    mov X1, 257
+    mov X2, 58
+    mov X3, 361
+    mov X4, 64
+    mov X7, 0
+    bl pintar_rectangulo
+
+    mov X0, X20
+    mov X1, 250
+    mov X2, 65
+    mov X3, 368
+    mov X4, 71
+    mov X7, 0
+    bl pintar_rectangulo
+
+    mov X0, X20
+    mov X1, 243
+    mov X2, 72
+    mov X3, 368
+    mov X4, 85
+    mov X7, 0
+    bl pintar_rectangulo
+
+    mov X0, X20
+    mov X1, 369
+    mov X2, 79
+    mov X3, 375
+    mov X4, 85
+    mov X7, 0
+    bl pintar_rectangulo
+
+    mov X0, X20
+    mov X1, 236
+    mov X2, 86
+    mov X3, 375
+    mov X4, 106
+    mov X7, 0
+    bl pintar_rectangulo
+
+    mov X0, X20
+    mov X1, 243
+    mov X2, 107
+    mov X3, 375
+    mov X4, 113
+    mov X7, 0
+    bl pintar_rectangulo
+
+    mov X0, X20
+    mov X1, 250
+    mov X2, 114
+    mov X3, 375
+    mov X4, 134
+    mov X7, 0
+    bl pintar_rectangulo
+
+    mov X0, X20
+    mov X1, 376
+    mov X2, 128
+    mov X3, 389
+    mov X4, 134
+    mov X7, 0
+    bl pintar_rectangulo
+
+    mov X0, X20
+    mov X1, 243
+    mov X2, 135
+    mov X3, 403
+    mov X4, 141
+    mov X7, 0
+    bl pintar_rectangulo
+
+    mov X0, X20
+    mov X1, 229
+    mov X2, 142
+    mov X3, 417
+    mov X4, 148
+    mov X7, 0
+    bl pintar_rectangulo
+
+    mov X0, X20
+    mov X1, 222
+    mov X2, 149
+    mov X3, 424
+    mov X4, 155
+    mov X7, 0
+    bl pintar_rectangulo
+
+    mov X0, X20
+    mov X1, 215
+    mov X2, 156
+    mov X3, 424
+    mov X4, 162
+    mov X7, 0
+    bl pintar_rectangulo
+
+    mov X0, X20
+    mov X1, 215
+    mov X2, 163
+    mov X3, 410
+    mov X4, 169
+    mov X7, 0
+    bl pintar_rectangulo
+
+    mov X0, X20
+    mov X1, 222
+    mov X2, 170
+    mov X3, 396
+    mov X4, 176
+    mov X7, 0
+    bl pintar_rectangulo
+
+    mov X0, X20
+    mov X1, 243
+    mov X2, 177
+    mov X3, 396
+    mov X4, 211
+    mov X7, 0
+    bl pintar_rectangulo
+
+    mov X0, X20
+    mov X1, 250
+    mov X2, 212
+    mov X3, 389
+    mov X4, 225
+    mov X7, 0
+    bl pintar_rectangulo
+
+    mov X0, X20
+    mov X1, 257
+    mov X2, 226
+    mov X3, 382
+    mov X4, 239
+    mov X7, 0
+    bl pintar_rectangulo
+
+    mov X0, X20
+    mov X1, 264
+    mov X2, 240
+    mov X3, 375
+    mov X4, 246
+    mov X7, 0
+    bl pintar_rectangulo
 
     RET	
