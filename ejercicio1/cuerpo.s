@@ -51,28 +51,22 @@ cuerpo:
     mov x4, 0xFFFFFFFF
     bl circulo
 
-    // Boton 1
+    // Botón 2 - círculo color marrón (0x964B00)
     mov x0, x20
-    mov x1, 320
-    mov x2, 375
+    mov x1, 360
+    mov x2, 390
     mov x3, 9
-    mov x4, 0x0000000
-    bl circulo
-
-    // Boton 2
-    mov x0, x20
-    mov x1, 320
-    mov x2, 410
-    mov x3, 9
-    mov x4, 0x0000000
+    movz x4, 0x964, lsl 16
+    movk x4, 0x4B00
     bl circulo
 
     // Boton 3
     mov x0, x20
-    mov x1, 320
-    mov x2, 445
+    mov x1, 360
+    mov x2, 435
     mov x3, 9
-    mov x4, 0x0000000
+    movz x4, 0x964, lsl 16
+    movk x4, 0x4B00
     bl circulo
 
     // Boton 4
