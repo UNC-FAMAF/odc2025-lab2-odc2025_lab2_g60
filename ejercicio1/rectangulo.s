@@ -11,7 +11,7 @@ pintar_pixel:
     RET
 
 // Función para pintar un rectángulo
-pintar_rectangulo:
+rectangulo:
      // Guarda el Frame Pointer y Link Register
     str x29, [SP, #8]
     str x30, [SP, #0]         

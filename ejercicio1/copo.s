@@ -11,7 +11,7 @@ copo:
     mov x3, 100
     mov x4, 100
     ldr x7, =BLANCO
-    bl pintar_rectangulo
+    bl rectangulo
 
     RET
     
