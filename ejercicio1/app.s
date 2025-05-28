@@ -22,6 +22,8 @@ main:
 
  	BL pintar_cabeza // colorear cabeza 
 
+	BL copo
+
 	// Ejemplo de uso de gpios
 	mov x9, GPIO_BASE
 
