@@ -16,6 +16,8 @@ main:
 	
 	BL pintar_cuerpo // Colorear muñeco de nieve
 
+	BL pintar_bufanda // Colorear bufanda 
+
 	// Ejemplo de uso de gpios
 	mov x9, GPIO_BASE
 
