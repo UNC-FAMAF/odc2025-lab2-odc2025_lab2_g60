@@ -164,5 +164,5 @@ copo:
     add x4, x10, 76
     bl rectangulo
 
-    LDR X30, [SP,#40]
+    LDR X30, [SP,#40]   // Se vuelve a cargar el link register
     RET
