@@ -180,5 +180,5 @@ pintar_cuerpo:
     mov X3, 5
     bl circulo
 
-    LDR X30, [SP,#40]
+    LDR X30, [SP,#40]   // Se vuelve a cargar el link register
     RET
