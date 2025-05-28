@@ -107,7 +107,7 @@ bl rectangulo
 mov x0, x20 
 mov x1, 278
 mov x2, 233
-mov x3, 375
+mov x3, 291
 mov x4, 239
 ldr x7, = GRIS_BLANCO
 bl rectangulo 
@@ -235,7 +235,7 @@ bl rectangulo
 mov x0, x20 
 mov x1, 278
 mov x2, 233
-mov x3, 375
+mov x3, 291
 mov x4, 239
 ldr x7, = GRIS_BLANCO
 bl rectangulo 
@@ -355,7 +355,7 @@ bl rectangulo
 mov x0, x20 
 mov x1, 278
 mov x2, 233
-mov x3, 375
+mov x3, 291
 mov x4, 239
 ldr x7, = GRIS_BLANCO
 bl rectangulo 
