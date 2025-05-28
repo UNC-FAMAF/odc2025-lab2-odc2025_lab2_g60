@@ -10,7 +10,7 @@
 
 main:
 	
-	BL fondo // Pintar el fondo
+	BL init // Inicializar el programa
 
 	BL silueta // Pintar silueta del muñeco
 	

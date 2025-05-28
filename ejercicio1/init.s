@@ -1,7 +1,10 @@
 .text
-.globl fondo
+.include "rectangulo.s"
+.include "colores.s"
 
-fondo: 
+.globl init
+
+init: 
     // x0 contiene la direccion base del framebuffer
     mov x20, x0    // Guarda la dirección base del framebuffer en x20
     mov x21, x0

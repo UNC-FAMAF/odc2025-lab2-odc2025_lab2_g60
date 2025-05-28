@@ -1,12 +1,12 @@
 .text
-.include "circulo.s"
 .include "rectangulo.s"
 .include "colores.s"
 .globl pintar_cabeza 
 
 pintar_cabeza:
 
- STR X30, [SP, #40]
+    STR X30, [SP, #40]
+
     mov x0, x20
     mov x1, 260
     mov x2, 254
@@ -282,7 +282,7 @@ pintar_cabeza:
     ldr x7,= NARANJA 
     bl rectangulo 
 
-  LDR X30, [SP,#40]
+    LDR X30, [SP,#40]
 
  RET 
 
