@@ -408,6 +408,15 @@ mov x4, 225
 ldr x7, = GRIS_CLARO
 bl rectangulo
 
+
+mov x0, x20
+mov x1, 271
+mov x2, 233
+mov x3, 277
+mov x4, 239
+ldr x7, = GRIS_CLARO
+bl rectangulo
+
 mov x0, x20
 mov x1, 250
 mov x2, 170
@@ -475,7 +484,7 @@ bl rectangulo
 mov x0, x20 
 mov x1, 278
 mov x2, 233
-mov x3, 375
+mov x3, 291
 mov x4, 239
 ldr x7, = GRIS_BLANCO
 bl rectangulo 
@@ -567,6 +576,15 @@ mov x3, 375
 mov x4, 239
 ldr x7, = GRIS_BLANCO
 bl rectangulo 
+
+mov x0, x20 
+mov x1, 264
+mov x2, 212
+mov x3, 277
+mov x4, 218
+ldr x7, = GRIS_BLANCO
+bl rectangulo 
+
 
   LDR X30, [SP,#40]
  RET 
