@@ -22,6 +22,8 @@ main:
 
  	BL pintar_cabeza // colorear cabeza 
 
+	mov x9, 139		// Dibujo los copos de nieve
+	mov x10, 61
 	BL copo
 
 	// Ejemplo de uso de gpios
