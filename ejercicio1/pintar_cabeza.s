@@ -272,6 +272,7 @@ pintar_cabeza:
     mov x3, 327 
     mov x4, 382 
     ldr x7,= NARANJA
+    bl rectangulo
 
     mov x0, x20 
     mov x1, 204
