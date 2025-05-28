@@ -18,6 +18,8 @@ main:
 
 	BL pintar_bufanda // Colorear bufanda 
 
+ 	BL pintar_cabeza // colorear cabeza 
+
 	// Ejemplo de uso de gpios
 	mov x9, GPIO_BASE
 
