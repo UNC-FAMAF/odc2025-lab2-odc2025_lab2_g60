@@ -5,6 +5,9 @@
 .globl silueta
 
 silueta:
+
+    STR X30, [SP, #40] // Se guarda el link register
+
     // Silueta del sombrero
     mov X0, X20
     mov X1, 278
@@ -295,4 +298,7 @@ silueta:
     ldr X7, =NEGRO
     bl pintar_rectangulo
 
-    RET
+    LDR X30, [SP,#40] // Se vuelve a cargar el link register
+
+RET
+

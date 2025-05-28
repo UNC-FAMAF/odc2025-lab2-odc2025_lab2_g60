@@ -1,11 +1,10 @@
 .text
-    .globl fondo
+.globl fondo
 
 fondo: 
     // x0 contiene la direccion base del framebuffer
     mov x20, x0    // Guarda la dirección base del framebuffer en x20
     mov x21, x0
-
 
     movz x10, 0x76, lsl 16
     movk x10, 0xC9D7, lsl 00     // Color del fondo 0x76C9D7
