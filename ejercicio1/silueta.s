@@ -6,9 +6,8 @@
 
 silueta:
     STR X30, [SP, #40]  // Se guarda el link register
-    ldr X7, =NEGRO      // Todo se pinta de negro
     mov X0, X20         // Seteo el framebuffer
-
+    ldr X7, =NEGRO      // Todo se pinta de negro
     mov X1, 278         // Silueta del sombrero
     mov X2, 44
     mov X3, 340
@@ -189,5 +188,6 @@ silueta:
     mov x3, 347
     mov x4, 435
     bl rectangulo
+    
     LDR X30, [SP,#40]   // Se vuelve a cargar el link register
     RET
