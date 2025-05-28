@@ -10,3 +10,6 @@ copo:
     mov x4, 5
     ldr x7, =BLANCO
     bl pintar_rectangulo
+
+    RET
+    
