@@ -12,6 +12,8 @@ main:
 	
 	BL init // Inicializar el programa
 
+	BL pasto // hacer pasto
+
 	BL silueta // Pintar silueta del muñeco
 	
 	BL pintar_cuerpo // Colorear muñeco de nieve
