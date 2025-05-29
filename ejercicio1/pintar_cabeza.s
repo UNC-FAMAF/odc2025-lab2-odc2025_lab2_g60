@@ -567,6 +567,7 @@ pintar_cabeza:
   mov x4, 197
   bl rectangulo
 
+  //SOMBRERO
   mov x1, 221
   mov x2, 163
   mov x3, 248
@@ -761,7 +762,7 @@ pintar_cabeza:
   mov x4, 113
   bl rectangulo
 
-  mov x1, 254
+  mov x1, 354
   mov x2, 79
   mov x3, 360
   mov x4, 113
@@ -818,30 +819,30 @@ pintar_cabeza:
 
   mov x1, 326
   mov x2, 58
-  mov x3, 332
+  mov x3, 339
   mov x4, 71
   bl rectangulo
 
   mov x1, 333
-  mov x2, 58
+  mov x2, 65
   mov x3, 346
   mov x4, 78
   bl rectangulo
 
-  mov x1, 256
+  mov x1, 255
   mov x2, 128
   mov x3, 269
   mov x4, 134
   ldr x7, = NARANJA_OSCURO
   bl rectangulo
 
-  mov x1, 264
+  mov x1, 263
   mov x2, 121
   mov x3, 284
   mov x4, 127
   bl rectangulo
 
-  mov x1, 271
+  mov x1, 270
   mov x2, 114
   mov x3, 277
   mov x4, 120
@@ -860,7 +861,7 @@ pintar_cabeza:
   mov x4, 120
   bl rectangulo
 
-  mov x1, 285
+  mov x1, 284
   mov x2, 107
   mov x3, 354
   mov x4, 113
