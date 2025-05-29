@@ -11,7 +11,7 @@ Integrante 4: Manuel Agustín Gómez
 
 # Descripción ejercicio 1: 
 
-**descripción**
+Un hombre de nieve sobre un terreno nevado
 
 
 # Descripción ejercicio 2:
