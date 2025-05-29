@@ -13,14 +13,20 @@ logo:
     mov x2, 445
     mov x3, 637
     mov x4, 479
-    ldr x7, =BLANCO
+    ldr x7, =CELESTE_CLARO
+    bl rectangulo
+
+    mov x1, 539
+    mov x2, 471
+    mov x3, 639
+    mov x4, 479
+    ldr x7, =VERDE_OSCURO
     bl rectangulo
 
     mov x1, 462  // interior O
     mov x2, 453
     mov x3, 466
     mov x4, 461
-    ldr x7, =VERDE_OSCURO
     bl rectangulo
 
     mov x1, 463
@@ -384,15 +390,15 @@ logo:
     bl rectangulo
 
     mov x1, 624
-    mov x2, 453
+    mov x2, 452
     mov x3, 626
     mov x4, 453
     bl rectangulo
 
-    mov x1, 625
-    mov x2, 452
-    mov x3, 625
-    mov x4, 452
+    mov x1, 627
+    mov x2, 453
+    mov x3, 627
+    mov x4, 453
     bl rectangulo
 
     mov x1, 632
@@ -909,6 +915,457 @@ logo:
     mov x2, 464
     mov x3, 529 
     mov x4, 479
+    bl rectangulo
+
+    mov x1, 523
+    mov x2, 445
+    mov x3, 524 
+    mov x4, 445
+    bl rectangulo
+
+    mov x1, 525
+    mov x2, 445
+    mov x3, 525 
+    mov x4, 446
+    bl rectangulo
+
+    mov x1, 526
+    mov x2, 445
+    mov x3, 526 
+    mov x4, 446
+    bl rectangulo
+
+    mov x1, 527
+    mov x2, 445
+    mov x3, 527 
+    mov x4, 447
+    bl rectangulo
+
+    mov x1, 528
+    mov x2, 445
+    mov x3, 528 
+    mov x4, 448
+    bl rectangulo
+
+    mov x1, 529
+    mov x2, 445
+    mov x3, 529 
+    mov x4, 450
+    bl rectangulo
+
+    mov x1, 530
+    mov x2, 445
+    mov x3, 533 
+    mov x4, 479
+    bl rectangulo
+
+    mov x1, 534 // contorno primer 2
+    mov x2, 445
+    mov x3, 538
+    mov x4, 479
+    bl rectangulo
+
+    mov x1, 539
+    mov x2, 445
+    mov x3, 539 
+    mov x4, 450
+    bl rectangulo
+
+    mov x1, 540
+    mov x2, 445
+    mov x3, 540 
+    mov x4, 448
+    bl rectangulo
+
+    mov x1, 541
+    mov x2, 445
+    mov x3, 541 
+    mov x4, 447
+    bl rectangulo
+
+    mov x1, 542
+    mov x2, 445
+    mov x3, 542 
+    mov x4, 446
+    bl rectangulo
+
+    mov x1, 543
+    mov x2, 445
+    mov x3, 544 
+    mov x4, 445
+    bl rectangulo
+    
+    mov x1, 556
+    mov x2, 445
+    mov x3, 557
+    mov x4, 445
+    bl rectangulo
+
+    mov x1, 558
+    mov x2, 445
+    mov x3, 558
+    mov x4, 446
+    bl rectangulo
+
+    mov x1, 559
+    mov x2, 445
+    mov x3, 559
+    mov x4, 447
+    bl rectangulo
+
+    mov x1, 560
+    mov x2, 445
+    mov x3, 560
+    mov x4, 448
+    bl rectangulo
+
+    mov x1, 561
+    mov x2, 445
+    mov x3, 562
+    mov x4, 479
+    bl rectangulo
+
+    mov x1, 563 // contorno 0
+    mov x2, 445
+    mov x3, 563
+    mov x4, 479
+    bl rectangulo
+
+    mov x1, 564
+    mov x2, 445
+    mov x3, 564
+    mov x4, 451
+    bl rectangulo
+
+    mov x1, 565
+    mov x2, 445
+    mov x3, 565
+    mov x4, 448
+    bl rectangulo
+
+    mov x1, 566
+    mov x2, 445
+    mov x3, 566
+    mov x4, 447
+    bl rectangulo
+
+    mov x1, 567
+    mov x2, 445
+    mov x3, 567
+    mov x4, 446
+    bl rectangulo
+
+    mov x1, 568
+    mov x2, 445
+    mov x3, 569
+    mov x4, 445
+    bl rectangulo
+
+    mov x1, 581
+    mov x2, 445
+    mov x3, 582
+    mov x4, 445
+    bl rectangulo
+
+    mov x1, 583
+    mov x2, 445
+    mov x3, 583
+    mov x4, 446
+    bl rectangulo
+
+    mov x1, 584
+    mov x2, 445
+    mov x3, 584
+    mov x4, 447
+    bl rectangulo
+
+    mov x1, 585
+    mov x2, 445
+    mov x3, 585
+    mov x4, 448
+    bl rectangulo
+
+    mov x1, 586
+    mov x2, 445
+    mov x3, 586
+    mov x4, 450
+    bl rectangulo
+
+    mov x1, 564
+    mov x2, 464
+    mov x3, 564
+    mov x4, 470
+    bl rectangulo
+
+    mov x1, 565
+    mov x2, 466
+    mov x3, 565
+    mov x4, 470
+    bl rectangulo
+
+    mov x1, 566
+    mov x2, 467
+    mov x3, 566
+    mov x4, 470
+    bl rectangulo
+
+    mov x1, 567
+    mov x2, 468
+    mov x3, 567
+    mov x4, 470
+    bl rectangulo
+
+    mov x1, 568
+    mov x2, 469
+    mov x3, 568
+    mov x4, 470
+    bl rectangulo
+
+    mov x1, 569
+    mov x2, 470
+    mov x3, 570
+    mov x4, 470
+    bl rectangulo
+
+    mov x1, 581
+    mov x2, 470
+    mov x3, 582
+    mov x4, 470
+    bl rectangulo
+
+    mov x1, 583
+    mov x2, 469
+    mov x3, 583
+    mov x4, 470
+    bl rectangulo
+
+    mov x1, 584
+    mov x2, 468
+    mov x3, 584
+    mov x4, 470
+    bl rectangulo
+
+    mov x1, 585
+    mov x2, 467
+    mov x3, 585
+    mov x4, 470
+    bl rectangulo
+
+    mov x1, 586
+    mov x2, 465
+    mov x3, 586
+    mov x4, 470
+    bl rectangulo
+
+    mov x1, 587
+    mov x2, 445
+    mov x3, 588
+    mov x4, 470
+    bl rectangulo
+
+    mov x1, 589 // contorno segundo 2
+    mov x2, 445
+    mov x3, 589
+    mov x4, 470
+    bl rectangulo
+
+    mov x1, 590
+    mov x2, 445
+    mov x3, 590 
+    mov x4, 450
+    bl rectangulo
+
+    mov x1, 591
+    mov x2, 445
+    mov x3, 591 
+    mov x4, 448
+    bl rectangulo
+
+    mov x1, 592
+    mov x2, 445
+    mov x3, 592 
+    mov x4, 447
+    bl rectangulo
+
+    mov x1, 593
+    mov x2, 445
+    mov x3, 593 
+    mov x4, 446
+    bl rectangulo
+
+    mov x1, 594
+    mov x2, 445
+    mov x3, 595 
+    mov x4, 445
+    bl rectangulo
+    
+    mov x1, 607
+    mov x2, 445
+    mov x3, 608
+    mov x4, 445
+    bl rectangulo
+
+    mov x1, 609
+    mov x2, 445
+    mov x3, 609
+    mov x4, 446
+    bl rectangulo
+
+    mov x1, 610
+    mov x2, 445
+    mov x3, 610
+    mov x4, 447
+    bl rectangulo
+
+    mov x1, 611
+    mov x2, 445
+    mov x3, 611
+    mov x4, 448
+    bl rectangulo
+
+    mov x1, 612
+    mov x2, 445
+    mov x3, 613
+    mov x4, 470
+    bl rectangulo
+
+    mov x1, 636 // contorno 5
+    mov x2, 445
+    mov x3, 636
+    mov x4, 456
+    bl rectangulo
+
+    mov x1, 637
+    mov x2, 445
+    mov x3, 637
+    mov x4, 458
+    bl rectangulo
+
+    mov x1, 614
+    mov x2, 445
+    mov x3, 614
+    mov x4, 470
+    bl rectangulo
+
+    mov x1, 615
+    mov x2, 445
+    mov x3, 615
+    mov x4, 461
+    bl rectangulo
+
+    mov x1, 616
+    mov x2, 445
+    mov x3, 616
+    mov x4, 453
+    bl rectangulo
+
+    mov x1, 617
+    mov x2, 445
+    mov x3, 617
+    mov x4, 445
+    bl rectangulo
+
+    mov x1, 615
+    mov x2, 466
+    mov x3, 615
+    mov x4, 470
+    bl rectangulo
+
+    mov x1, 616
+    mov x2, 467
+    mov x3, 616
+    mov x4, 470
+    bl rectangulo
+
+    mov x1, 617
+    mov x2, 468
+    mov x3, 617
+    mov x4, 470
+    bl rectangulo
+
+    mov x1, 618
+    mov x2, 469
+    mov x3, 619
+    mov x4, 470
+    bl rectangulo
+
+    mov x1, 620
+    mov x2, 470
+    mov x3, 621
+    mov x4, 470
+    bl rectangulo
+
+    mov x1, 633
+    mov x2, 470
+    mov x3, 633
+    mov x4, 470
+    bl rectangulo
+
+    mov x1, 634
+    mov x2, 469
+    mov x3, 634
+    mov x4, 470
+    bl rectangulo
+
+    mov x1, 635
+    mov x2, 468
+    mov x3, 635
+    mov x4, 470
+    bl rectangulo
+
+    mov x1, 636
+    mov x2, 467
+    mov x3, 636
+    mov x4, 470
+    bl rectangulo
+
+    mov x1, 637
+    mov x2, 465
+    mov x3, 637
+    mov x4, 470
+    bl rectangulo
+
+    mov x1, 576 // detalles
+    mov x2, 471
+    mov x3, 578
+    mov x4, 471
+    ldr x7, =CELESTE_CLARO
+    bl rectangulo
+
+    mov x1, 577
+    mov x2, 472
+    mov x3, 577
+    mov x4, 472
+    bl rectangulo
+
+    mov x1, 627
+    mov x2, 471
+    mov x3, 631
+    mov x4, 472
+    bl rectangulo
+
+    mov x1, 628
+    mov x2, 473
+    mov x3, 631
+    mov x4, 473
+    bl rectangulo
+
+    mov x1, 628
+    mov x2, 474
+    mov x3, 630
+    mov x4, 474
+    bl rectangulo
+
+    mov x1, 628
+    mov x2, 475
+    mov x3, 629
+    mov x4, 475
+    bl rectangulo
+
+    mov x1, 629
+    mov x2, 476
+    mov x3, 629
+    mov x4, 476
     bl rectangulo
 
     LDR X30, [SP,#40]

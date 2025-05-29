@@ -14,5 +14,6 @@ Colores:
 .equ VERDE, 0x129F2E
 .equ VERDE_OSCURO, 0x187E37
 .equ CELESTE, 0x76C9D7
+.equ CELESTE_CLARO, 0xB6EDF6
 
 .endif 
