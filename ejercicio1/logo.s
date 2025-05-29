@@ -773,6 +773,144 @@ logo:
     mov x4, 479
     bl rectangulo
 
+    mov x1, 504 // contorno C
+    mov x2, 445
+    mov x3, 504 
+    mov x4, 479
+    bl rectangulo
+
+    mov x1, 505
+    mov x2, 445
+    mov x3, 505 
+    mov x4, 453
+    bl rectangulo
+
+    mov x1, 506
+    mov x2, 445
+    mov x3, 506 
+    mov x4, 449
+    bl rectangulo
+
+    mov x1, 507
+    mov x2, 445
+    mov x3, 507 
+    mov x4, 448
+    bl rectangulo
+
+    mov x1, 508
+    mov x2, 445
+    mov x3, 508 
+    mov x4, 447
+    bl rectangulo
+
+    mov x1, 509
+    mov x2, 445
+    mov x3, 509 
+    mov x4, 446
+    bl rectangulo
+
+    mov x1, 510
+    mov x2, 445
+    mov x3, 511 
+    mov x4, 445
+    bl rectangulo
+
+    mov x1, 505
+    mov x2, 462
+    mov x3, 505 
+    mov x4, 479
+    bl rectangulo
+
+    mov x1, 506
+    mov x2, 465
+    mov x3, 506 
+    mov x4, 479
+    bl rectangulo
+    
+    mov x1, 507
+    mov x2, 467
+    mov x3, 507 
+    mov x4, 479
+    bl rectangulo
+
+    mov x1, 508
+    mov x2, 468
+    mov x3, 508 
+    mov x4, 479
+    bl rectangulo
+
+    mov x1, 509
+    mov x2, 469
+    mov x3, 510
+    mov x4, 479
+    bl rectangulo
+
+    mov x1, 511
+    mov x2, 470
+    mov x3, 517
+    mov x4, 479
+    bl rectangulo
+
+    mov x1, 518
+    mov x2, 471
+    mov x3, 518 
+    mov x4, 479
+    bl rectangulo
+
+    mov x1, 519
+    mov x2, 472
+    mov x3, 522 
+    mov x4, 479
+    bl rectangulo
+
+    mov x1, 521
+    mov x2, 471
+    mov x3, 521 
+    mov x4, 471
+    bl rectangulo
+
+    mov x1, 523
+    mov x2, 474
+    mov x3, 523 
+    mov x4, 479
+    bl rectangulo
+
+    mov x1, 524
+    mov x2, 473
+    mov x3, 524 
+    mov x4, 479
+    bl rectangulo
+
+    mov x1, 525
+    mov x2, 472
+    mov x3, 525 
+    mov x4, 479
+    bl rectangulo
+
+    mov x1, 526
+    mov x2, 469
+    mov x3, 526 
+    mov x4, 479
+    bl rectangulo
+
+    mov x1, 527
+    mov x2, 468
+    mov x3, 527 
+    mov x4, 479
+    bl rectangulo
+
+    mov x1, 528
+    mov x2, 466
+    mov x3, 528 
+    mov x4, 479
+    bl rectangulo
+
+    mov x1, 529
+    mov x2, 464
+    mov x3, 529 
+    mov x4, 479
+    bl rectangulo
+
     LDR X30, [SP,#40]
 
 RET
