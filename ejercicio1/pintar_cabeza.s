@@ -732,6 +732,399 @@ mov x3, 368
 mov x4, 197
 ldr x7, = NEGRO 
 bl rectangulo
+
+mov x0, x20 
+mov x1, 221
+mov x2, 163
+mov x3, 248
+mov x4, 169
+ldr x7, = GRIS 
+bl rectangulo
+
+mov x0, x20 
+mov x1, 235
+mov x2, 156
+mov x3, 262
+mov x4, 162
+ldr x7, = GRIS 
+bl rectangulo
+
+mov x0, x20 
+mov x1, 256
+mov x2, 149
+mov x3, 290
+mov x4, 155
+ldr x7, = GRIS 
+bl rectangulo
+
+mov x0, x20 
+mov x1, 284
+mov x2, 142
+mov x3, 381
+mov x4, 148
+ldr x7, = GRIS 
+bl rectangulo
+
+mov x0, x20 
+mov x1, 361
+mov x2, 149
+mov x3, 402
+mov x4, 155
+ldr x7, = GRIS 
+bl rectangulo
+
+mov x0, x20 
+mov x1, 382
+mov x2, 156
+mov x3, 409
+mov x4, 162
+ldr x7, = GRIS 
+bl rectangulo
+
+mov x0, x20 
+mov x1, 249
+mov x2, 135
+mov x3, 262
+mov x4, 141
+ldr x7, = GRIS 
+bl rectangulo
+
+mov x0, x20 
+mov x1, 235
+mov x2, 156
+mov x3, 262
+mov x4, 162
+ldr x7, = GRIS 
+bl rectangulo
+
+mov x0, x20 
+mov x1, 270
+mov x2, 128
+mov x3, 290
+mov x4, 134
+ldr x7, = GRIS 
+bl rectangulo
+
+mov x0, x20 
+mov x1, 298
+mov x2, 121
+mov x3, 367
+mov x4, 127
+ldr x7, = GRIS 
+bl rectangulo
+
+mov x0, x20 
+mov x1, 361
+mov x2, 86
+mov x3, 367
+mov x4, 113
+ldr x7, = GRIS 
+bl rectangulo
+
+mov x0, x20 
+mov x1, 354
+mov x2, 65
+mov x3, 360
+mov x4, 78
+ldr x7, = GRIS 
+bl rectangulo
+
+mov x0, x20 
+mov x1, 347
+mov x2, 58
+mov x3, 353
+mov x4, 64
+ldr x7, = GRIS 
+bl rectangulo
+
+mov x0, x20 
+mov x1, 235
+mov x2, 156
+mov x3, 262
+mov x4, 162
+ldr x7, = GRIS 
+bl rectangulo
+
+mov x0, x20 
+mov x1, 277
+mov x2, 51
+mov x3, 283
+mov x4, 57
+ldr x7, = GRIS 
+bl rectangulo
+
+mov x0, x20 
+mov x1, 263
+mov x2, 58
+mov x3, 269
+mov x4, 64
+ldr x7, = GRIS 
+bl rectangulo
+
+mov x0, x20 
+mov x1, 270
+mov x2, 100
+mov x3, 276
+mov x4, 113
+ldr x7, = GRIS 
+bl rectangulo
+
+mov x0, x20 
+mov x1, 263
+mov x2, 79
+mov x3, 269
+mov x4, 120
+ldr x7, = GRIS 
+bl rectangulo
+
+mov x0, x20 
+mov x1, 256
+mov x2, 65
+mov x3, 262
+mov x4, 127
+ldr x7, = GRIS 
+bl rectangulo
+
+mov x0, x20 
+mov x1, 249
+mov x2, 72
+mov x3, 255
+mov x4, 113
+ldr x7, = GRIS 
+bl rectangulo
+
+mov x0, x20 
+mov x1, 242
+mov x2, 86
+mov x3, 248
+mov x4, 106
+ldr x7, = GRIS 
+bl rectangulo
+
+mov x0, x20 
+mov x1, 221
+mov x2, 156
+mov x3, 234
+mov x4, 162
+ldr x7, = GRIS_CLARO
+bl rectangulo
+
+mov x0, x20 
+mov x1, 228
+mov x2, 149
+mov x3, 255
+mov x4, 155
+ldr x7, = GRIS_CLARO 
+bl rectangulo
+
+mov x0, x20 
+mov x1, 242
+mov x2, 142
+mov x3, 283
+mov x4, 148
+ldr x7, = GRIS_CLARO
+bl rectangulo
+
+mov x0, x20 
+mov x1, 263
+mov x2, 135
+mov x3, 269
+mov x4, 141
+ldr x7, = GRIS_CLARO
+bl rectangulo
+
+mov x0, x20 
+mov x1, 291
+mov x2, 135
+mov x3, 374
+mov x4, 141
+ldr x7, = GRIS_CLARO
+bl rectangulo
+
+mov x0, x20 
+mov x1, 263
+mov x2, 135
+mov x3, 269
+mov x4, 141
+ldr x7, = GRIS_CLARO
+bl rectangulo
+
+mov x0, x20 
+mov x1, 282
+mov x2, 142
+mov x3, 395
+mov x4, 148
+ldr x7, = GRIS_CLARO
+bl rectangulo
+
+mov x0, x20 
+mov x1, 403
+mov x2, 149
+mov x3, 416
+mov x4, 155
+ldr x7, = GRIS_CLARO
+bl rectangulo
+
+mov x0, x20 
+mov x1, 263
+mov x2, 65
+mov x3, 269
+mov x4, 78
+ldr x7, = GRIS_CLARO
+bl rectangulo
+
+mov x0, x20 
+mov x1, 270
+mov x2, 58
+mov x3, 276
+mov x4, 99
+ldr x7, = GRIS_CLARO
+bl rectangulo
+
+mov x0, x20 
+mov x1, 277
+mov x2, 58
+mov x3, 283
+mov x4, 113
+ldr x7, = GRIS_CLARO
+bl rectangulo
+
+mov x0, x20 
+mov x1, 254
+mov x2, 79
+mov x3, 360
+mov x4, 113
+ldr x7, = GRIS_CLARO
+bl rectangulo
+
+mov x0, x20 
+mov x1, 347
+mov x2, 65
+mov x3, 353
+mov x4, 106
+ldr x7, = GRIS_CLARO
+bl rectangulo
+
+mov x0, x20 
+mov x1, 340
+mov x2, 58
+mov x3, 346
+mov x4, 106
+ldr x7, = GRIS_CLARO
+bl rectangulo
+
+mov x0, x20 
+mov x1, 284
+mov x2, 51
+mov x3, 339
+mov x4, 106
+ldr x7, = GRIS_CLARO
+bl rectangulo
+
+mov x0, x20 
+mov x1, 396
+mov x2, 142
+mov x3, 402
+mov x4, 148
+ldr x7, = GRIS_BLANCO
+bl rectangulo
+
+mov x0, x20 
+mov x1, 375
+mov x2, 135
+mov x3, 388
+mov x4, 141
+ldr x7, = GRIS_BLANCO
+bl rectangulo
+
+mov x0, x20 
+mov x1, 263
+mov x2, 135
+mov x3, 269
+mov x4, 141
+ldr x7, = GRIS_BLANCO
+bl rectangulo
+
+mov x0, x20 
+mov x1, 291
+mov x2, 128
+mov x3, 374
+mov x4, 134
+ldr x7, = GRIS_BLANCO
+bl rectangulo
+
+mov x0, x20 
+mov x1, 270
+mov x2, 135
+mov x3, 290
+mov x4, 141
+ldr x7, = GRIS_BLANCO
+bl rectangulo
+
+mov x0, x20 
+mov x1, 326
+mov x2, 58
+mov x3, 332
+mov x4, 71
+ldr x7, = GRIS_BLANCO
+bl rectangulo
+
+mov x0, x20 
+mov x1, 333
+mov x2, 58
+mov x3, 346
+mov x4, 78
+ldr x7, = GRIS_BLANCO
+bl rectangulo
+
+mov x0, x20 
+mov x1, 256
+mov x2, 128
+mov x3, 269
+mov x4, 134
+ldr x7, = NARANJA_OSCURO
+bl rectangulo
+
+mov x0, x20 
+mov x1, 264
+mov x2, 121
+mov x3, 284
+mov x4, 127
+ldr x7, = NARANJA_OSCURO
+bl rectangulo
+
+mov x0, x20 
+mov x1, 271
+mov x2, 114
+mov x3, 277
+mov x4, 120
+ldr x7, = NARANJA_OSCURO
+bl rectangulo
+
+mov x0, x20 
+mov x1, 285
+mov x2, 121
+mov x3, 298
+mov x4, 127
+ldr x7, = NARANJA
+bl rectangulo
+
+mov x0, x20 
+mov x1, 278
+mov x2, 114
+mov x3, 368
+mov x4, 120
+ldr x7, = NARANJA
+bl rectangulo
+
+mov x0, x20 
+mov x1, 285
+mov x2, 107
+mov x3, 354
+mov x4, 113
+ldr x7, = NARANJA
+bl rectangulo
+
   LDR X30, [SP,#40]
  RET 
 
