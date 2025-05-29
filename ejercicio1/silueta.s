@@ -190,4 +190,4 @@ silueta:
     bl rectangulo
     
     LDR X30, [SP,#40]   // Se vuelve a cargar el link register
-    RET
+RET
