@@ -6,8 +6,8 @@
 
 pasto:
     STR X30, [SP, #40] 
-    
     mov x1, 0
+
     mov x2, 380
     mov x3, 639 
     mov x4, 479 

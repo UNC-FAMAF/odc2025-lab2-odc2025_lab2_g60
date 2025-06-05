@@ -1,4 +1,6 @@
 .text
+.include "rectangulo.s"
+.include "colores.s"
 
 .globl init
 
