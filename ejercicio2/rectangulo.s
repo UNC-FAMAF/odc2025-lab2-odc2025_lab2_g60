@@ -51,5 +51,12 @@ dejar_de_pintar:
     ldr x29, [SP, #8] 
     ldr x30, [SP]            
     RET
-
     
+sleep:
+    MOVZ x8, 0xFFFF, LSL 0
+    MOVK x8, 0x06FF, LSL 16
+
+sleep_loop:
+	SUBS x8, x8, 1
+	B.NE sleep_loop
+	RET

@@ -16,6 +16,8 @@ Un hombre de nieve sobre un terreno nevado
 
 # Descripción ejercicio 2:
 
+Copos de nieve que aparecen y desaparecen
+
 
 # Justificación instrucciones ARMv8:
 

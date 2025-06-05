@@ -1,12 +1,10 @@
     .text
-    .include "colores.s"
     .include "rectangulo.s"
     .globl copo
 
 copo:
     STR X30, [SP, #40]  // Se guarda el link register
     mov x0, x20         // Seteo el framebuffer
-    ldr x7, =BLANCO     // Todo se pinta de blanco
     add x1, x9, 7
     add x2, x10, 14
     add x3, x9, 20

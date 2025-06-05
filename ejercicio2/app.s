@@ -18,15 +18,13 @@ main:
 	
 	BL pintar_cuerpo // Colorear muñeco de nieve
 
-	BL pintar_bufanda // Colorear bufanda 
+	BL pintar_bufanda // Colorear bufanda
 
  	BL pintar_cabeza // colorear cabeza 
 
 	BL logo // dibujar logo odc
 
-	mov x9, 139		// Dibujo los copos de nieve
-	mov x10, 61
-	BL copo
+	B animacion
 
 	// Ejemplo de uso de gpios
 	mov x9, GPIO_BASE
