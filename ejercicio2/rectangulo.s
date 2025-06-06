@@ -54,7 +54,7 @@ dejar_de_pintar:
     
 sleep:
     MOVZ x8, 0xFFFF, LSL 0
-    MOVK x8, 0x06FF, LSL 16
+    MOVK x8, 0x03AF, LSL 16
 
 sleep_loop:
 	SUBS x8, x8, 1
